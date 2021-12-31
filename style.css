@@ -5,25 +5,25 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    color: #8a307f;
+    color: #7A2048;
 }
 
 header {
     padding: 20px 35px;
-    background-color: #79a7d3;
+    background-color: #1e2761;
 }
 
 header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: #8a307f;
+    color: #408EC6;
     margin: 0;
     display: inline;
 }
 
 header a {
     text-decoration: none;
-    color: #8a307f;
+    color: #408EC6;
 }
 
 header nav {
@@ -36,4 +36,35 @@ header nav ul li {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
+}
+
+footer {
+    background: #1e2761;
+    width: 100%;
+    padding: 40px 35px;
+}
+
+footer h2 {
+    display: inline;
+    color: #408EC6;
+    font-size: 30px;
+    margin: 0%;
+}
+
+section {
+    padding: 60px;
+}
+
+/*Hero Style*/
+.hero {
+    background-image: url("../Professional/assets/image.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+/*Hero Style Ends*/
+
+.what-i-do {
+    text-align: center;
+    background: #408EC6;
 }
