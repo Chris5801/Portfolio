@@ -66,8 +66,8 @@ section {
 
 .about-me h2 {
     flex: 1 100%;
-    text-align: center;
-}
+    text-align: left;
+    }
 
 .info h3 {
     font-size: 26px;
@@ -82,7 +82,10 @@ section {
 }
 
 .info {
-    flex: 12;
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .my-info {
@@ -90,7 +93,6 @@ section {
 }
 
 .about-me {
-    background: #408EC6;
     margin: 50px auto;
     padding-bottom: 50px;
     width: 80%;
@@ -99,4 +101,23 @@ section {
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid;
+}
+
+.about-me:last-child {
+    border-bottom: 
+}
+
+.about-me h2 {
+    color: #7A2048;
+    font-size: 46px;
+    flex: 1 30%;
+}
+
+hr.vertical {
+    border-left: 6px solid #7A2048;
+    height: 1000px;
+    position:absolute;
+    left: 33%;
+    margin-left: -3px;
+    top: 104%;
 }
