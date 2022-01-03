@@ -115,7 +115,7 @@ section {
 
 hr.vertical {
     border-left: 6px solid #7A2048;
-    height: 1000px;
+    height: 1350px;
     position:absolute;
     left: 33%;
     margin-left: -3px;
@@ -133,7 +133,7 @@ hr.vertical {
 }
 
 .imageOne {
-    /*position: relative-->*/
+    /*position: relative--> need to figure out how to get photos aligned properly*/
 }
 
 .imageTwo {
