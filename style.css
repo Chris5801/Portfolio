@@ -52,7 +52,7 @@ footer h2 {
 }
 
 section {
-    padding: 60px;
+    padding: 30px 15px;
 }
 
 /*Hero Style*/
@@ -64,7 +64,39 @@ section {
 }
 /*Hero Style Ends*/
 
-.what-i-do {
+.about-me h2 {
+    flex: 1 100%;
     text-align: center;
+}
+
+.info h3 {
+    font-size: 26px;
+    line-height: 1.5;
+    color: #7A2048;
+}
+
+.info p {
+    font-size: 26px;
+    line-height: 26px;
+    color: #7A2048;
+}
+
+.info {
+    flex: 12;
+}
+
+.my-info {
     background: #408EC6;
+}
+
+.about-me {
+    background: #408EC6;
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid;
 }
