@@ -82,14 +82,20 @@ section {
 }
 
 .info {
-    flex: 2 70%;
+    margin-left: 40%;
+    /* flex: 2 70%;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: center; */
 }
 
 .my-info {
     background: #408EC6;
+}
+
+#work-section {
+    margin-left: 300px;
+    width: 500px;
 }
 
 .about-me {
@@ -122,22 +128,29 @@ hr.vertical {
     top: 104%;
 }
 
+.my-work {
+    display: flex;
+}
+
 .my-work img {
     width: 150px;
     height: 150px;
 }
 
 .container {
-    position: relative;
-    left: 400%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto; 
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .imageOne {
+    margin: 10px;
     /*position: relative--> need to figure out how to get photos aligned properly*/
 }
 
 .imageTwo {
-  
-    top: 40%;
-    left: 150%;
+   margin: 10px;
+   
 }
