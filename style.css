@@ -57,7 +57,7 @@ section {
 
 /*Hero Style*/
 .hero {
-    background-image: url("../Professional/assets/image.jpg");
+    background-image: url("./assets/image.jpg");
     height: 600px;
     background-size: cover;
     background-position: center;
